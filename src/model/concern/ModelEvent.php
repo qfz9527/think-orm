@@ -13,7 +13,7 @@ declare (strict_types = 1);
 namespace tporm\model\concern;
 
 use tporm\db\exception\ModelEventException;
-use tporm\helper\Str;
+use think\helper\Str;
 
 /**
  * 模型事件处理

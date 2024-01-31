@@ -12,11 +12,11 @@ declare (strict_types = 1);
 
 namespace tporm\db;
 
-use tporm\Collection;
+use think\Collection;
 use tporm\db\exception\DataNotFoundException;
 use tporm\db\exception\DbException as Exception;
 use tporm\db\exception\ModelNotFoundException;
-use tporm\helper\Str;
+use think\helper\Str;
 use tporm\Model;
 use tporm\Paginator;
 
@@ -638,7 +638,7 @@ abstract class BaseQuery
                 if (!empty($this->model)) {
                     $results = new \tporm\model\Collection([]);
                 } else {
-                    $results = new \tporm\Collection([]);
+                    $results = new \think\Collection([]);
                 }
             }
         } elseif ($simple) {

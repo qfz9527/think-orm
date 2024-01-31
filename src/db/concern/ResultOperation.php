@@ -13,12 +13,12 @@ declare (strict_types = 1);
 namespace tporm\db\concern;
 
 use Closure;
-use tporm\Collection;
+use think\Collection;
 use tporm\db\exception\DataNotFoundException;
 use tporm\db\exception\DbException;
 use tporm\db\exception\ModelNotFoundException;
 use tporm\db\Query;
-use tporm\helper\Str;
+use think\helper\Str;
 use tporm\Model;
 
 /**

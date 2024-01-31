@@ -12,7 +12,7 @@
 namespace tporm\model\relation;
 
 use Closure;
-use tporm\Collection;
+use think\Collection;
 use tporm\db\BaseQuery as Query;
 use tporm\db\exception\DbException as Exception;
 use tporm\db\Raw;

@@ -12,9 +12,9 @@ declare (strict_types = 1);
 
 namespace tporm\model\concern;
 
-use tporm\Collection;
+use think\Collection;
 use tporm\db\exception\DbException as Exception;
-use tporm\helper\Str;
+use think\helper\Str;
 use tporm\Model;
 use tporm\model\Collection as ModelCollection;
 use tporm\model\relation\OneToOne;

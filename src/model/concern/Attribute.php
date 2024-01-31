@@ -14,7 +14,7 @@ namespace tporm\model\concern;
 
 use InvalidArgumentException;
 use tporm\db\Raw;
-use tporm\helper\Str;
+use think\helper\Str;
 use tporm\model\Relation;
 
 /**

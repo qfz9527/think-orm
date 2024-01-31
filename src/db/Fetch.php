@@ -13,7 +13,7 @@ declare (strict_types = 1);
 namespace tporm\db;
 
 use tporm\db\exception\DbException as Exception;
-use tporm\helper\Str;
+use think\helper\Str;
 
 /**
  * SQL获取类

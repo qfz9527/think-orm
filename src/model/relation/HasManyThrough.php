@@ -12,9 +12,9 @@
 namespace tporm\model\relation;
 
 use Closure;
-use tporm\Collection;
+use think\Collection;
 use tporm\db\BaseQuery as Query;
-use tporm\helper\Str;
+use think\helper\Str;
 use tporm\Model;
 use tporm\model\Relation;
 

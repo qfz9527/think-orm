@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace tests\orm;
 
 use tests\Base;
-use tporm\Collection;
+use think\Collection;
 use tporm\db\exception\DbException;
 use tporm\db\Raw;
 use tporm\Exception as ThinkException;

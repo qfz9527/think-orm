@@ -13,7 +13,7 @@ declare (strict_types = 1);
 namespace tporm\db\concern;
 
 use Closure;
-use tporm\helper\Str;
+use think\helper\Str;
 use tporm\Model;
 use tporm\model\Collection as ModelCollection;
 

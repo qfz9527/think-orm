@@ -15,8 +15,8 @@ namespace tporm;
 use ArrayAccess;
 use Closure;
 use JsonSerializable;
-use tporm\contract\Arrayable;
-use tporm\contract\Jsonable;
+use think\contract\Arrayable;
+use think\contract\Jsonable;
 use tporm\db\BaseQuery as Query;
 
 /**

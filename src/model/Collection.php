@@ -12,7 +12,7 @@ declare (strict_types = 1);
 
 namespace tporm\model;
 
-use tporm\Collection as BaseCollection;
+use think\Collection as BaseCollection;
 use tporm\Model;
 use tporm\Paginator;
 

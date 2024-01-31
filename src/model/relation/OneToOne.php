@@ -14,7 +14,7 @@ namespace tporm\model\relation;
 use Closure;
 use tporm\db\BaseQuery as Query;
 use tporm\db\exception\DbException as Exception;
-use tporm\helper\Str;
+use think\helper\Str;
 use tporm\Model;
 use tporm\model\Relation;
 
