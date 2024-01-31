@@ -15,6 +15,7 @@ namespace tporm\db\concern;
 use Closure;
 use tporm\db\BaseQuery;
 use tporm\db\Raw;
+use tporm\db\Where;
 
 trait WhereQuery
 {
