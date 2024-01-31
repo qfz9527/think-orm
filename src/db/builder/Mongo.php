@@ -427,6 +427,9 @@ class Mongo
         } else {
             $updateOptions = ['multi' => true];
         }
+        if (isset($options['upsert']) && $options['upsert'] == true) {
+            $updateOptions['upsert'] = true;
+        }
 
         $bulk = new BulkWrite;
 

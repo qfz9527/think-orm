@@ -361,6 +361,11 @@ trait WhereQuery
             $field = $this->options['via'] . '.' . $field;
         }
 
+        if ($field instanceof Where) {
+            $this->options['where'][$logic] = $field->parse();
+            return $this;
+        }
+
         if ($strict) {
             // 使用严格模式查询
             if ('=' == $op) {
