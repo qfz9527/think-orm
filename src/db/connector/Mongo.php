@@ -316,7 +316,7 @@ class Mongo extends Connection
      * @throws ConnectionException
      * @throws RuntimeException
      */
-    protected function mongoQuery(BaseQuery $query, $mongoQuery): array
+    public function mongoQuery(BaseQuery $query, $mongoQuery): array
     {
         $options = $query->parseOptions();
 
@@ -361,7 +361,7 @@ class Mongo extends Connection
      * @throws RuntimeException
      * @throws BulkWriteException
      */
-    protected function mongoExecute(BaseQuery $query, BulkWrite $bulk)
+    public function mongoExecute(BaseQuery $query, BulkWrite $bulk)
     {
         $this->initConnect(true);
         $this->db->updateQueryTimes();

@@ -9,6 +9,7 @@
 declare (strict_types = 1);
 namespace tporm\db;
 
+use MongoDB\Driver\BulkWrite;
 use MongoDB\Driver\Command;
 use MongoDB\Driver\Cursor;
 use MongoDB\Driver\Exception\AuthenticationException;
@@ -27,6 +28,16 @@ class Mongo extends BaseQuery
      * @var \tporm\db\connector\Mongo
      */
     protected $connection;
+
+    /**
+     * @param \MongoDB\Driver\BulkWrite $bulk
+     *
+     * @return \MongoDB\Driver\WriteResult
+     */
+    public function mongoExecute(BulkWrite $bulk)
+    {
+        return $this->connection->mongoExecute($this->newQuery(),$bulk);
+    }
 
     /**
      * 执行指令 返回数据集
