@@ -201,7 +201,7 @@ class Query extends BaseQuery
      * @param string $force 索引名称
      * @return $this
      */
-    public function force(string $force)
+    public function force($force)
     {
         $this->options['force'] = $force;
         return $this;

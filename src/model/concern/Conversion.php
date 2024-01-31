@@ -354,7 +354,6 @@ trait Conversion
     }
 
     // JsonSerializable
-    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->toArray();
