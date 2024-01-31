@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model;
+namespace tporm\model;
 
-use tp51\Model;
+use tporm\Model;
 
 /**
  * 多对多中间表模型类

@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db;
+namespace tporm\db;
 
 use ArrayAccess;
 

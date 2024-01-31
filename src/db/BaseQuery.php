@@ -10,15 +10,15 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db;
+namespace tporm\db;
 
-use tp51\Collection;
-use tp51\db\exception\DataNotFoundException;
-use tp51\db\exception\DbException as Exception;
-use tp51\db\exception\ModelNotFoundException;
-use tp51\helper\Str;
-use tp51\Model;
-use tp51\Paginator;
+use tporm\Collection;
+use tporm\db\exception\DataNotFoundException;
+use tporm\db\exception\DbException as Exception;
+use tporm\db\exception\ModelNotFoundException;
+use tporm\helper\Str;
+use tporm\Model;
+use tporm\Paginator;
 
 /**
  * 数据查询基础类
@@ -636,9 +636,9 @@ abstract class BaseQuery
                 $results = $this->options($options)->bind($bind)->page($page, $listRows)->select();
             } else {
                 if (!empty($this->model)) {
-                    $results = new \tp51\model\Collection([]);
+                    $results = new \tporm\model\Collection([]);
                 } else {
-                    $results = new \tp51\Collection([]);
+                    $results = new \tporm\Collection([]);
                 }
             }
         } elseif ($simple) {

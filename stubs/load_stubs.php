@@ -1,9 +1,9 @@
 <?php
 
-if (!\class_exists('tp51\Exception')) {
+if (!\class_exists('tporm\Exception')) {
     require __DIR__ . '/Exception.php';
 }
 
-if (!\class_exists('tp51\Facade')) {
+if (!\class_exists('tporm\Facade')) {
     require __DIR__ . '/Facade.php';
 }

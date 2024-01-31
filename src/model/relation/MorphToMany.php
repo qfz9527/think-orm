@@ -9,14 +9,14 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace tp51\model\relation;
+namespace tporm\model\relation;
 
 use Closure;
 use Exception;
-use tp51\db\BaseQuery as Query;
-use tp51\db\Raw;
-use tp51\Model;
-use tp51\model\Pivot;
+use tporm\db\BaseQuery as Query;
+use tporm\db\Raw;
+use tporm\Model;
+use tporm\model\Pivot;
 
 /**
  * 多态多对多关联

@@ -10,16 +10,16 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db\concern;
+namespace tporm\db\concern;
 
 use Closure;
-use tp51\Collection;
-use tp51\db\exception\DataNotFoundException;
-use tp51\db\exception\DbException;
-use tp51\db\exception\ModelNotFoundException;
-use tp51\db\Query;
-use tp51\helper\Str;
-use tp51\Model;
+use tporm\Collection;
+use tporm\db\exception\DataNotFoundException;
+use tporm\db\exception\DbException;
+use tporm\db\exception\ModelNotFoundException;
+use tporm\db\Query;
+use tporm\helper\Str;
+use tporm\Model;
 
 /**
  * 查询数据处理

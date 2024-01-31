@@ -10,11 +10,11 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db\concern;
+namespace tporm\db\concern;
 
 use Closure;
-use tp51\db\BaseQuery;
-use tp51\db\Raw;
+use tporm\db\BaseQuery;
+use tporm\db\Raw;
 
 trait WhereQuery
 {

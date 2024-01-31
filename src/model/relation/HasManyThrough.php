@@ -9,14 +9,14 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace tp51\model\relation;
+namespace tporm\model\relation;
 
 use Closure;
-use tp51\Collection;
-use tp51\db\BaseQuery as Query;
-use tp51\helper\Str;
-use tp51\Model;
-use tp51\model\Relation;
+use tporm\Collection;
+use tporm\db\BaseQuery as Query;
+use tporm\helper\Str;
+use tporm\Model;
+use tporm\model\Relation;
 
 /**
  * 远程一对多关联类

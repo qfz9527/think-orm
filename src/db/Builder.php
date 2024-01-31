@@ -10,11 +10,11 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db;
+namespace tporm\db;
 
 use Closure;
 use PDO;
-use tp51\db\exception\DbException as Exception;
+use tporm\db\exception\DbException as Exception;
 
 /**
  * Db Builder

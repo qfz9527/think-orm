@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare(strict_types=1);
 
-namespace tp51;
+namespace tporm;
 
 class Facade
 {
@@ -39,7 +39,7 @@ class Facade
      */
     protected static function createFacade(bool $newInstance = false)
     {
-        $class = static::getFacadeClass() ?: 'tp51\DbManager';
+        $class = static::getFacadeClass() ?: 'tporm\DbManager';
 
         if (static::$alwaysNewInstance) {
             $newInstance = true;

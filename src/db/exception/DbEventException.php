@@ -9,7 +9,7 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace tp51\db\exception;
+namespace tporm\db\exception;
 
 /**
  * Db事件异常

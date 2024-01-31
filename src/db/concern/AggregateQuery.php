@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db\concern;
+namespace tporm\db\concern;
 
-use tp51\db\exception\DbException;
-use tp51\db\Raw;
+use tporm\db\exception\DbException;
+use tporm\db\Raw;
 
 /**
  * 聚合查询

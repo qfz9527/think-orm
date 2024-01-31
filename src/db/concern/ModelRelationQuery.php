@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db\concern;
+namespace tporm\db\concern;
 
 use Closure;
-use tp51\helper\Str;
-use tp51\Model;
-use tp51\model\Collection as ModelCollection;
+use tporm\helper\Str;
+use tporm\Model;
+use tporm\model\Collection as ModelCollection;
 
 /**
  * 模型及关联查询

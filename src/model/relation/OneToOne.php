@@ -9,18 +9,18 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace tp51\model\relation;
+namespace tporm\model\relation;
 
 use Closure;
-use tp51\db\BaseQuery as Query;
-use tp51\db\exception\DbException as Exception;
-use tp51\helper\Str;
-use tp51\Model;
-use tp51\model\Relation;
+use tporm\db\BaseQuery as Query;
+use tporm\db\exception\DbException as Exception;
+use tporm\helper\Str;
+use tporm\Model;
+use tporm\model\Relation;
 
 /**
  * 一对一关联基础类
- * @package tp51\model\relation
+ * @package tporm\model\relation
  */
 abstract class OneToOne extends Relation
 {

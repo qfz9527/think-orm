@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51;
+namespace tporm;
 
 use ArrayAccess;
 use ArrayIterator;
@@ -19,7 +19,7 @@ use Countable;
 use DomainException;
 use IteratorAggregate;
 use JsonSerializable;
-use tp51\paginator\driver\Bootstrap;
+use tporm\paginator\driver\Bootstrap;
 use Traversable;
 
 /**
@@ -370,7 +370,7 @@ abstract class Paginator implements ArrayAccess, Countable, IteratorAggregate, J
     /**
      * 获取数据集
      *
-     * @return Collection|\tp51\model\Collection
+     * @return Collection|\tporm\model\Collection
      */
     public function getCollection()
     {

@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db\exception;
+namespace tporm\db\exception;
 
 /**
  * PDO异常处理类

@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db\concern;
+namespace tporm\db\concern;
 
 /**
  * 时间查询支持

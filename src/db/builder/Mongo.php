@@ -7,7 +7,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
-namespace tp51\db\builder;
+namespace tporm\db\builder;
 
 use MongoDB\BSON\Javascript;
 use MongoDB\BSON\ObjectID;
@@ -16,9 +16,9 @@ use MongoDB\Driver\BulkWrite;
 use MongoDB\Driver\Command;
 use MongoDB\Driver\Exception\InvalidArgumentException;
 use MongoDB\Driver\Query as MongoQuery;
-use tp51\db\connector\Mongo as Connection;
-use tp51\db\exception\DbException as Exception;
-use tp51\db\Mongo as Query;
+use tporm\db\connector\Mongo as Connection;
+use tporm\db\exception\DbException as Exception;
+use tporm\db\Mongo as Query;
 
 class Mongo
 {

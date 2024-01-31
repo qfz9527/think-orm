@@ -10,11 +10,11 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db\builder;
+namespace tporm\db\builder;
 
-use tp51\db\Builder;
-use tp51\db\Query;
-use tp51\db\Raw;
+use tporm\db\Builder;
+use tporm\db\Query;
+use tporm\db\Raw;
 
 /**
  * Pgsql数据库驱动

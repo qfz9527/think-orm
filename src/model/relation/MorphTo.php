@@ -9,14 +9,14 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace tp51\model\relation;
+namespace tporm\model\relation;
 
 use Closure;
-use tp51\db\exception\DbException as Exception;
-use tp51\db\Query;
-use tp51\helper\Str;
-use tp51\Model;
-use tp51\model\Relation;
+use tporm\db\exception\DbException as Exception;
+use tporm\db\Query;
+use tporm\helper\Str;
+use tporm\Model;
+use tporm\model\Relation;
 
 /**
  * 多态关联类

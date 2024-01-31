@@ -10,14 +10,14 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51;
+namespace tporm;
 
 use ArrayAccess;
 use Closure;
 use JsonSerializable;
-use tp51\contract\Arrayable;
-use tp51\contract\Jsonable;
-use tp51\db\BaseQuery as Query;
+use tporm\contract\Arrayable;
+use tporm\contract\Jsonable;
+use tporm\db\BaseQuery as Query;
 
 /**
  * Class Model

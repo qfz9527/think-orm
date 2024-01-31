@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model\concern;
+namespace tporm\model\concern;
 
 use InvalidArgumentException;
-use tp51\db\Raw;
-use tp51\helper\Str;
-use tp51\model\Relation;
+use tporm\db\Raw;
+use tporm\helper\Str;
+use tporm\model\Relation;
 
 /**
  * 模型数据处理

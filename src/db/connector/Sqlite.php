@@ -9,10 +9,10 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace tp51\db\connector;
+namespace tporm\db\connector;
 
 use PDO;
-use tp51\db\PDOConnection;
+use tporm\db\PDOConnection;
 
 /**
  * Sqlite数据库驱动

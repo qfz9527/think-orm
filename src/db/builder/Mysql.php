@@ -10,13 +10,13 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db\builder;
+namespace tporm\db\builder;
 
 use PDO;
-use tp51\db\Builder;
-use tp51\db\exception\DbException as Exception;
-use tp51\db\Query;
-use tp51\db\Raw;
+use tporm\db\Builder;
+use tporm\db\exception\DbException as Exception;
+use tporm\db\Query;
+use tporm\db\Raw;
 
 /**
  * mysql数据库驱动

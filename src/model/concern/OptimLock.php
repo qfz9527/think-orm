@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model\concern;
+namespace tporm\model\concern;
 
-use tp51\db\exception\DbException as Exception;
+use tporm\db\exception\DbException as Exception;
 
 /**
  * 乐观锁

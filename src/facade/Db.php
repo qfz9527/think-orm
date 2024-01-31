@@ -9,13 +9,13 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace tp51\facade;
+namespace tporm\facade;
 
-use tp51\Facade;
+use tporm\Facade;
 
 /**
- * @see \tp51\DbManager
- * @mixin \tp51\DbManager
+ * @see \tporm\DbManager
+ * @mixin \tporm\DbManager
  */
 class Db extends Facade
 {
@@ -26,6 +26,6 @@ class Db extends Facade
      */
     protected static function getFacadeClass()
     {
-        return 'tp51\DbManager';
+        return 'tporm\DbManager';
     }
 }

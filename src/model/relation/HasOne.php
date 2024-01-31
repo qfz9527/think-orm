@@ -10,11 +10,11 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model\relation;
+namespace tporm\model\relation;
 
 use Closure;
-use tp51\db\BaseQuery as Query;
-use tp51\Model;
+use tporm\db\BaseQuery as Query;
+use tporm\Model;
 
 /**
  * HasOne 关联类

@@ -2,7 +2,7 @@
 require __DIR__ . '/../vendor/autoload.php';
 require __DIR__ . '/functions.php';
 
-use tp51\facade\Db;
+use tporm\facade\Db;
 
 // 数据库配置信息设置（全局有效）
 Db::setConfig([

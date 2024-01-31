@@ -10,14 +10,14 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model\concern;
+namespace tporm\model\concern;
 
-use tp51\Collection;
-use tp51\db\exception\DbException as Exception;
-use tp51\helper\Str;
-use tp51\Model;
-use tp51\model\Collection as ModelCollection;
-use tp51\model\relation\OneToOne;
+use tporm\Collection;
+use tporm\db\exception\DbException as Exception;
+use tporm\helper\Str;
+use tporm\Model;
+use tporm\model\Collection as ModelCollection;
+use tporm\model\relation\OneToOne;
 
 /**
  * 模型数据转换处理

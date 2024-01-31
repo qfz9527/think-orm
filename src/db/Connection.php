@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare(strict_types=1);
 
-namespace tp51\db;
+namespace tporm\db;
 
 use Psr\SimpleCache\CacheInterface;
-use tp51\DbManager;
+use tporm\DbManager;
 
 /**
  * 数据库连接基础类

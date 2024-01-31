@@ -9,9 +9,9 @@
 // | Author: zhangyajun <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace tp51\paginator\driver;
+namespace tporm\paginator\driver;
 
-use tp51\Paginator;
+use tporm\Paginator;
 
 /**
  * Bootstrap 分页驱动

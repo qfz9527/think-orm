@@ -7,11 +7,11 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace tp51\db\connector;
+namespace tporm\db\connector;
 
 use PDO;
-use tp51\db\BaseQuery;
-use tp51\db\PDOConnection;
+use tporm\db\BaseQuery;
+use tporm\db\PDOConnection;
 
 /**
  * Oracle数据库驱动

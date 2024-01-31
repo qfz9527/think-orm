@@ -4,11 +4,11 @@ declare(strict_types=1);
 namespace tests\orm;
 
 use tests\Base;
-use tp51\Collection;
-use tp51\db\exception\DbException;
-use tp51\db\Raw;
-use tp51\Exception as ThinkException;
-use tp51\facade\Db;
+use tporm\Collection;
+use tporm\db\exception\DbException;
+use tporm\db\Raw;
+use tporm\Exception as ThinkException;
+use tporm\facade\Db;
 use function array_column;
 use function array_keys;
 use function array_unique;

@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db\connector;
+namespace tporm\db\connector;
 
 use PDO;
-use tp51\db\PDOConnection;
+use tporm\db\PDOConnection;
 
 /**
  * mysql数据库驱动

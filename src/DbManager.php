@@ -10,15 +10,15 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51;
+namespace tporm;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 use Psr\SimpleCache\CacheInterface;
-use tp51\db\BaseQuery;
-use tp51\db\ConnectionInterface;
-use tp51\db\Query;
-use tp51\db\Raw;
+use tporm\db\BaseQuery;
+use tporm\db\ConnectionInterface;
+use tporm\db\Query;
+use tporm\db\Raw;
 
 /**
  * Class DbManager
@@ -252,7 +252,7 @@ class DbManager
         if (false !== strpos($type, '\\')) {
             $class = $type;
         } else {
-            $class = '\\tp51\\db\\connector\\' . ucfirst($type);
+            $class = '\\tporm\\db\\connector\\' . ucfirst($type);
         }
 
         /** @var ConnectionInterface $connection */

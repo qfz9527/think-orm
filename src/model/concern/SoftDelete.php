@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model\concern;
+namespace tporm\model\concern;
 
-use tp51\db\BaseQuery as Query;
-use tp51\Model;
+use tporm\db\BaseQuery as Query;
+use tporm\Model;
 
 /**
  * 数据软删除

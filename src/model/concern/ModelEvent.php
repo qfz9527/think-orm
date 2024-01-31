@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model\concern;
+namespace tporm\model\concern;
 
-use tp51\db\exception\ModelEventException;
-use tp51\helper\Str;
+use tporm\db\exception\ModelEventException;
+use tporm\helper\Str;
 
 /**
  * 模型事件处理

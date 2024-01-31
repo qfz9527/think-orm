@@ -10,26 +10,26 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model\concern;
+namespace tporm\model\concern;
 
 use Closure;
-use tp51\Collection;
-use tp51\db\BaseQuery as Query;
-use tp51\db\exception\DbException as Exception;
-use tp51\helper\Str;
-use tp51\Model;
-use tp51\model\Relation;
-use tp51\model\relation\BelongsTo;
-use tp51\model\relation\BelongsToMany;
-use tp51\model\relation\HasMany;
-use tp51\model\relation\HasManyThrough;
-use tp51\model\relation\HasOne;
-use tp51\model\relation\HasOneThrough;
-use tp51\model\relation\MorphMany;
-use tp51\model\relation\MorphOne;
-use tp51\model\relation\MorphTo;
-use tp51\model\relation\MorphToMany;
-use tp51\model\relation\OneToOne;
+use tporm\Collection;
+use tporm\db\BaseQuery as Query;
+use tporm\db\exception\DbException as Exception;
+use tporm\helper\Str;
+use tporm\Model;
+use tporm\model\Relation;
+use tporm\model\relation\BelongsTo;
+use tporm\model\relation\BelongsToMany;
+use tporm\model\relation\HasMany;
+use tporm\model\relation\HasManyThrough;
+use tporm\model\relation\HasOne;
+use tporm\model\relation\HasOneThrough;
+use tporm\model\relation\MorphMany;
+use tporm\model\relation\MorphOne;
+use tporm\model\relation\MorphTo;
+use tporm\model\relation\MorphToMany;
+use tporm\model\relation\OneToOne;
 
 /**
  * 模型关联处理
@@ -719,7 +719,7 @@ trait RelationShip
     {
         $relation = Str::camel($attr);
 
-        if ((method_exists($this, $relation) && !method_exists('tp51\Model', $relation)) || isset(static::$macro[static::class][$relation])) {
+        if ((method_exists($this, $relation) && !method_exists('tporm\Model', $relation)) || isset(static::$macro[static::class][$relation])) {
             return $relation;
         }
 

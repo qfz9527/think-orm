@@ -10,17 +10,17 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model;
+namespace tporm\model;
 
 use Closure;
 use ReflectionFunction;
-use tp51\db\BaseQuery as Query;
-use tp51\db\exception\DbException as Exception;
-use tp51\Model;
+use tporm\db\BaseQuery as Query;
+use tporm\db\exception\DbException as Exception;
+use tporm\Model;
 
 /**
  * 模型关联基础类
- * @package tp51\model
+ * @package tporm\model
  * @mixin Query
  */
 abstract class Relation

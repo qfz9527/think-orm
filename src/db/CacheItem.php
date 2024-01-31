@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db;
+namespace tporm\db;
 
 use DateInterval;
 use DateTime;
 use DateTimeInterface;
-use tp51\db\exception\InvalidArgumentException;
+use tporm\db\exception\InvalidArgumentException;
 
 /**
  * CacheItem实现类

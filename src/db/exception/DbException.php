@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\db\exception;
+namespace tporm\db\exception;
 
-use tp51\Exception;
+use tporm\Exception;
 
 /**
  * Database相关异常处理类

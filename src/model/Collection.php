@@ -10,17 +10,17 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model;
+namespace tporm\model;
 
-use tp51\Collection as BaseCollection;
-use tp51\Model;
-use tp51\Paginator;
+use tporm\Collection as BaseCollection;
+use tporm\Model;
+use tporm\Paginator;
 
 /**
  * 模型数据集类
  *
  * @template TKey of array-key
- * @template TModel of \tp51\Model
+ * @template TModel of \tporm\Model
  *
  * @extends BaseCollection<TKey, TModel>
  */

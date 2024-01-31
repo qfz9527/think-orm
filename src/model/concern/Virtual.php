@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace tp51\model\concern;
+namespace tporm\model\concern;
 
-use tp51\db\BaseQuery as Query;
-use tp51\db\exception\DbException as Exception;
+use tporm\db\BaseQuery as Query;
+use tporm\db\exception\DbException as Exception;
 
 /**
  * 虚拟模型
