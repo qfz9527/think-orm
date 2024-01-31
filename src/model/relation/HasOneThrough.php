@@ -9,10 +9,10 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace tp51\model\relation;
 
 use Closure;
-use think\Model;
+use tp51\Model;
 
 /**
  * 远程一对一关联类

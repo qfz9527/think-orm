@@ -10,15 +10,15 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think;
+namespace tp51;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 use Psr\SimpleCache\CacheInterface;
-use think\db\BaseQuery;
-use think\db\ConnectionInterface;
-use think\db\Query;
-use think\db\Raw;
+use tp51\db\BaseQuery;
+use tp51\db\ConnectionInterface;
+use tp51\db\Query;
+use tp51\db\Raw;
 
 /**
  * Class DbManager
@@ -252,7 +252,7 @@ class DbManager
         if (false !== strpos($type, '\\')) {
             $class = $type;
         } else {
-            $class = '\\think\\db\\connector\\' . ucfirst($type);
+            $class = '\\tp51\\db\\connector\\' . ucfirst($type);
         }
 
         /** @var ConnectionInterface $connection */

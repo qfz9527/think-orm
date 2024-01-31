@@ -9,16 +9,16 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace tp51\model\relation;
 
 use Closure;
-use think\Collection;
-use think\db\BaseQuery as Query;
-use think\db\exception\DbException as Exception;
-use think\db\Raw;
-use think\Model;
-use think\model\Pivot;
-use think\model\Relation;
+use tp51\Collection;
+use tp51\db\BaseQuery as Query;
+use tp51\db\exception\DbException as Exception;
+use tp51\db\Raw;
+use tp51\Model;
+use tp51\model\Pivot;
+use tp51\model\Relation;
 
 /**
  * 多对多关联类
@@ -115,7 +115,7 @@ class BelongsToMany extends Relation
         if ($pivot instanceof Pivot) {
             return $pivot;
         } else {
-            throw new Exception('pivot model must extends: \think\model\Pivot');
+            throw new Exception('pivot model must extends: \tp51\model\Pivot');
         }
     }
 

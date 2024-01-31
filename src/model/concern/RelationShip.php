@@ -10,26 +10,26 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace tp51\model\concern;
 
 use Closure;
-use think\Collection;
-use think\db\BaseQuery as Query;
-use think\db\exception\DbException as Exception;
-use think\helper\Str;
-use think\Model;
-use think\model\Relation;
-use think\model\relation\BelongsTo;
-use think\model\relation\BelongsToMany;
-use think\model\relation\HasMany;
-use think\model\relation\HasManyThrough;
-use think\model\relation\HasOne;
-use think\model\relation\HasOneThrough;
-use think\model\relation\MorphMany;
-use think\model\relation\MorphOne;
-use think\model\relation\MorphTo;
-use think\model\relation\MorphToMany;
-use think\model\relation\OneToOne;
+use tp51\Collection;
+use tp51\db\BaseQuery as Query;
+use tp51\db\exception\DbException as Exception;
+use tp51\helper\Str;
+use tp51\Model;
+use tp51\model\Relation;
+use tp51\model\relation\BelongsTo;
+use tp51\model\relation\BelongsToMany;
+use tp51\model\relation\HasMany;
+use tp51\model\relation\HasManyThrough;
+use tp51\model\relation\HasOne;
+use tp51\model\relation\HasOneThrough;
+use tp51\model\relation\MorphMany;
+use tp51\model\relation\MorphOne;
+use tp51\model\relation\MorphTo;
+use tp51\model\relation\MorphToMany;
+use tp51\model\relation\OneToOne;
 
 /**
  * 模型关联处理
@@ -719,7 +719,7 @@ trait RelationShip
     {
         $relation = Str::camel($attr);
 
-        if ((method_exists($this, $relation) && !method_exists('think\Model', $relation)) || isset(static::$macro[static::class][$relation])) {
+        if ((method_exists($this, $relation) && !method_exists('tp51\Model', $relation)) || isset(static::$macro[static::class][$relation])) {
             return $relation;
         }
 

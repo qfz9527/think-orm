@@ -1,10 +1,10 @@
 {
-    "name": "topthink/think-orm",
+    "name": "qfz9527/think-orm",
     "description": "think orm",
     "keywords": [
         "orm",
         "database"
-    ],      
+    ],
     "license": "Apache-2.0",
     "authors": [
         {
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "think\\": "src"
+            "tp51\\": "src"
         },
         "files": [
             "stubs/load_stubs.php"

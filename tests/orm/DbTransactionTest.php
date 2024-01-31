@@ -5,7 +5,7 @@ namespace tests\orm;
 
 use Exception;
 use tests\Base;
-use think\facade\Db;
+use tp51\facade\Db;
 use Throwable;
 use function tests\mysql_kill_connection;
 use function tests\query_mysql_connection_id;

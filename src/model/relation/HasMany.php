@@ -10,13 +10,13 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\relation;
+namespace tp51\model\relation;
 
 use Closure;
-use think\Collection;
-use think\db\BaseQuery as Query;
-use think\Model;
-use think\model\Relation;
+use tp51\Collection;
+use tp51\db\BaseQuery as Query;
+use tp51\Model;
+use tp51\model\Relation;
 
 /**
  * 一对多关联类

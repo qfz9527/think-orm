@@ -7,7 +7,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
-namespace think\db;
+namespace tp51\db;
 
 use MongoDB\Driver\Command;
 use MongoDB\Driver\Cursor;
@@ -17,14 +17,14 @@ use MongoDB\Driver\Exception\InvalidArgumentException;
 use MongoDB\Driver\Exception\RuntimeException;
 use MongoDB\Driver\ReadPreference;
 use MongoDB\Driver\WriteConcern;
-use think\db\exception\DbException as Exception;
-use think\Paginator;
+use tp51\db\exception\DbException as Exception;
+use tp51\Paginator;
 
 class Mongo extends BaseQuery
 {
     /**
      * 当前数据库连接对象
-     * @var \think\db\connector\Mongo
+     * @var \tp51\db\connector\Mongo
      */
     protected $connection;
 

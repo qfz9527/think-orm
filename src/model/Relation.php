@@ -10,17 +10,17 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model;
+namespace tp51\model;
 
 use Closure;
 use ReflectionFunction;
-use think\db\BaseQuery as Query;
-use think\db\exception\DbException as Exception;
-use think\Model;
+use tp51\db\BaseQuery as Query;
+use tp51\db\exception\DbException as Exception;
+use tp51\Model;
 
 /**
  * 模型关联基础类
- * @package think\model
+ * @package tp51\model
  * @mixin Query
  */
 abstract class Relation

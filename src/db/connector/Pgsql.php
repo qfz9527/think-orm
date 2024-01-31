@@ -9,10 +9,10 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\connector;
+namespace tp51\db\connector;
 
 use PDO;
-use think\db\PDOConnection;
+use tp51\db\PDOConnection;
 
 /**
  * Pgsql数据库驱动

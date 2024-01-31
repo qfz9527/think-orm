@@ -10,14 +10,14 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think;
+namespace tp51;
 
 use ArrayAccess;
 use Closure;
 use JsonSerializable;
-use think\contract\Arrayable;
-use think\contract\Jsonable;
-use think\db\BaseQuery as Query;
+use tp51\contract\Arrayable;
+use tp51\contract\Jsonable;
+use tp51\db\BaseQuery as Query;
 
 /**
  * Class Model

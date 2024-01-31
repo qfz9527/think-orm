@@ -10,11 +10,11 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\builder;
+namespace tp51\db\builder;
 
-use think\db\Builder;
-use think\db\Query;
-use think\db\Raw;
+use tp51\db\Builder;
+use tp51\db\Query;
+use tp51\db\Raw;
 
 /**
  * Pgsql数据库驱动

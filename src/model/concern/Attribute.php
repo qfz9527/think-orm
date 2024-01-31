@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace tp51\model\concern;
 
 use InvalidArgumentException;
-use think\db\Raw;
-use think\helper\Str;
-use think\model\Relation;
+use tp51\db\Raw;
+use tp51\helper\Str;
+use tp51\model\Relation;
 
 /**
  * 模型数据处理

@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\concern;
+namespace tp51\db\concern;
 
-use think\db\Raw;
+use tp51\db\Raw;
 
 /**
  * JOIN和VIEW查询

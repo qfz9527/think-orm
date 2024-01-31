@@ -9,9 +9,9 @@
 // | Author: zhangyajun <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\paginator\driver;
+namespace tp51\paginator\driver;
 
-use think\Paginator;
+use tp51\Paginator;
 
 /**
  * Bootstrap 分页驱动

@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db;
+namespace tp51\db;
 
-use think\db\exception\DbException as Exception;
-use think\helper\Str;
+use tp51\db\exception\DbException as Exception;
+use tp51\helper\Str;
 
 /**
  * SQL获取类

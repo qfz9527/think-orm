@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\exception;
+namespace tp51\db\exception;
 
-use think\Exception;
+use tp51\Exception;
 
 /**
  * Database相关异常处理类

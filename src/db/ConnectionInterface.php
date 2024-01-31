@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db;
+namespace tp51\db;
 
 use Psr\SimpleCache\CacheInterface;
-use think\DbManager;
+use tp51\DbManager;
 
 /**
  * Connection interface

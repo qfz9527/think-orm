@@ -9,12 +9,12 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\builder;
+namespace tp51\db\builder;
 
-use think\db\Builder;
-use think\db\exception\DbException as Exception;
-use think\db\Query;
-use think\db\Raw;
+use tp51\db\Builder;
+use tp51\db\exception\DbException as Exception;
+use tp51\db\Query;
+use tp51\db\Raw;
 
 /**
  * Sqlsrv数据库驱动

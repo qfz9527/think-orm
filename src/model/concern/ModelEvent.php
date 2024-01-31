@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace tp51\model\concern;
 
-use think\db\exception\ModelEventException;
-use think\helper\Str;
+use tp51\db\exception\ModelEventException;
+use tp51\helper\Str;
 
 /**
  * 模型事件处理

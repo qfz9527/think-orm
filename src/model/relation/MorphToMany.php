@@ -9,14 +9,14 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace tp51\model\relation;
 
 use Closure;
 use Exception;
-use think\db\BaseQuery as Query;
-use think\db\Raw;
-use think\Model;
-use think\model\Pivot;
+use tp51\db\BaseQuery as Query;
+use tp51\db\Raw;
+use tp51\Model;
+use tp51\model\Pivot;
 
 /**
  * 多态多对多关联

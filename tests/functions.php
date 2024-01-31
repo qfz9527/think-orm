@@ -2,8 +2,8 @@
 
 namespace tests;
 
-use think\db\ConnectionInterface;
-use think\facade\Db;
+use tp51\db\ConnectionInterface;
+use tp51\facade\Db;
 use function array_column;
 use function array_combine;
 use function array_map;

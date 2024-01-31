@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think;
+namespace tp51;
 
 use ArrayAccess;
 use ArrayIterator;
@@ -19,7 +19,7 @@ use Countable;
 use DomainException;
 use IteratorAggregate;
 use JsonSerializable;
-use think\paginator\driver\Bootstrap;
+use tp51\paginator\driver\Bootstrap;
 use Traversable;
 
 /**
@@ -370,7 +370,7 @@ abstract class Paginator implements ArrayAccess, Countable, IteratorAggregate, J
     /**
      * 获取数据集
      *
-     * @return Collection|\think\model\Collection
+     * @return Collection|\tp51\model\Collection
      */
     public function getCollection()
     {

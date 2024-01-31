@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare(strict_types=1);
 
-namespace think;
+namespace tp51;
 
 class Facade
 {
@@ -39,7 +39,7 @@ class Facade
      */
     protected static function createFacade(bool $newInstance = false)
     {
-        $class = static::getFacadeClass() ?: 'think\DbManager';
+        $class = static::getFacadeClass() ?: 'tp51\DbManager';
 
         if (static::$alwaysNewInstance) {
             $newInstance = true;

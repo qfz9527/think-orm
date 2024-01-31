@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model;
+namespace tp51\model;
 
-use think\Model;
+use tp51\Model;
 
 /**
  * 多对多中间表模型类

@@ -10,15 +10,15 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db;
+namespace tp51\db;
 
-use think\Collection;
-use think\db\exception\DataNotFoundException;
-use think\db\exception\DbException as Exception;
-use think\db\exception\ModelNotFoundException;
-use think\helper\Str;
-use think\Model;
-use think\Paginator;
+use tp51\Collection;
+use tp51\db\exception\DataNotFoundException;
+use tp51\db\exception\DbException as Exception;
+use tp51\db\exception\ModelNotFoundException;
+use tp51\helper\Str;
+use tp51\Model;
+use tp51\Paginator;
 
 /**
  * 数据查询基础类
@@ -636,9 +636,9 @@ abstract class BaseQuery
                 $results = $this->options($options)->bind($bind)->page($page, $listRows)->select();
             } else {
                 if (!empty($this->model)) {
-                    $results = new \think\model\Collection([]);
+                    $results = new \tp51\model\Collection([]);
                 } else {
-                    $results = new \think\Collection([]);
+                    $results = new \tp51\Collection([]);
                 }
             }
         } elseif ($simple) {

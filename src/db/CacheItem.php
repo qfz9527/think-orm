@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db;
+namespace tp51\db;
 
 use DateInterval;
 use DateTime;
 use DateTimeInterface;
-use think\db\exception\InvalidArgumentException;
+use tp51\db\exception\InvalidArgumentException;
 
 /**
  * CacheItem实现类

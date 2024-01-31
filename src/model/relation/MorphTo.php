@@ -9,14 +9,14 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace tp51\model\relation;
 
 use Closure;
-use think\db\exception\DbException as Exception;
-use think\db\Query;
-use think\helper\Str;
-use think\Model;
-use think\model\Relation;
+use tp51\db\exception\DbException as Exception;
+use tp51\db\Query;
+use tp51\helper\Str;
+use tp51\Model;
+use tp51\model\Relation;
 
 /**
  * 多态关联类

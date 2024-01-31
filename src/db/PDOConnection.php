@@ -10,16 +10,16 @@
 // +----------------------------------------------------------------------
 declare(strict_types=1);
 
-namespace think\db;
+namespace tp51\db;
 
 use Closure;
 use PDO;
 use PDOStatement;
-use think\db\exception\BindParamException;
-use think\db\exception\DbEventException;
-use think\db\exception\DbException;
-use think\db\exception\PDOException;
-use think\Model;
+use tp51\db\exception\BindParamException;
+use tp51\db\exception\DbEventException;
+use tp51\db\exception\DbException;
+use tp51\db\exception\PDOException;
+use tp51\Model;
 
 /**
  * 数据库连接基础类
@@ -222,7 +222,7 @@ abstract class PDOConnection extends Connection
      */
     public function getBuilderClass(): string
     {
-        return $this->getConfig('builder') ?: '\\think\\db\\builder\\' . ucfirst($this->getConfig('type'));
+        return $this->getConfig('builder') ?: '\\tp51\\db\\builder\\' . ucfirst($this->getConfig('type'));
     }
 
     /**

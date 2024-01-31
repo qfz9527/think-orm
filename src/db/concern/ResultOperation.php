@@ -10,16 +10,16 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\concern;
+namespace tp51\db\concern;
 
 use Closure;
-use think\Collection;
-use think\db\exception\DataNotFoundException;
-use think\db\exception\DbException;
-use think\db\exception\ModelNotFoundException;
-use think\db\Query;
-use think\helper\Str;
-use think\Model;
+use tp51\Collection;
+use tp51\db\exception\DataNotFoundException;
+use tp51\db\exception\DbException;
+use tp51\db\exception\ModelNotFoundException;
+use tp51\db\Query;
+use tp51\helper\Str;
+use tp51\Model;
 
 /**
  * 查询数据处理
